@@ -1,25 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import User from "./components/user";
+import Login from"./components/login";
 
 function App() {
+
+  // const click = (val) => {
+  //   alert(val);
+  // }
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <User></User>
+      <Login></Login>
+      {/* <button onClick={(e) => click("Hii..  user..")}>Click me now </button> */}
     </div>
-  );
+  )
 }
 
 export default App;
