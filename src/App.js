@@ -1,16 +1,19 @@
-import User from "./components/user";
+//import User from "./components/user";
 import Login from"./components/login";
+import UserRegistration from "./components/Registration";
+import User from "./components/user";
+
 
 function App() {
 
-  // const click = (val) => {
-  //   alert(val);
-  // }
+  
   return (
     <div>
-      <User></User>
+      
       <Login></Login>
-      {/* <button onClick={(e) => click("Hii..  user..")}>Click me now </button> */}
+      {/* <UserRegistration></UserRegistration> */}
+   
+
     </div>
   )
 }
